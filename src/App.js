@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './chartConfig';
+
+// import BASE_URL from './config';
+import BarChart from './components/BarChart';
+import PieChart from './components/PieChart';
+import Botones from './components/Botones';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App container pt-5 text-center">
+      <h1>Monitoreo de Metas SPCC 2024 Bolivia</h1>
+      <Botones />
+      <div className="charts">
+        <BarChart />
+        <PieChart />
+      </div>
     </div>
   );
 }
