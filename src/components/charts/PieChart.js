@@ -1,8 +1,8 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
 import { Pie } from 'react-chartjs-2';
+import { Card } from 'react-bootstrap';
 
-import { departmentData } from '../data.js';
+import { departmentData } from '../data/data.js';
 
 const PieChart = () => {
 
@@ -39,7 +39,7 @@ const PieChart = () => {
   };
 
   return (
-    <div className="container mb-5">
+    <div className="container">
       <Card>
         <Card.Header>Gráfico de Torta</Card.Header>
         <Card.Body>

@@ -46,7 +46,7 @@ Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](ht
 
 ## Autores ✒️
 
-- **LCZ** - _Trabajo Inicial_ - [luiscz80](https://github.com/luiscz80) - _Pagina Web_ - [luiscz80](https://luiscz80.github.io/luis_system/)
+- **LCZ** - _Trabajo Inicial_ - [luiscz80](https://github.com/luiscz80) - _Pagina Web_ - [luis_system](https://luiscz80.github.io/luis_system/)
 
 ## Licencia 📄
 

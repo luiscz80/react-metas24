@@ -1,22 +1,22 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './chartConfig';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-// import BASE_URL from './config';
-import BarChart from './components/BarChart';
-import PieChart from './components/PieChart';
-import Botones from './components/Botones';
+import Departamentos from './components/departamentos/Departamentos';
+import Detalles from './components/departamentos/Detalles';
+import NotFound from './components/NotFound';
 
 function App() {
   return (
-    <div className="App container pt-5 text-center">
-      <h1>Monitoreo de Metas SPCC 2024 Bolivia</h1>
-      <Botones />
-      <div className="charts">
-        <BarChart />
-        <PieChart />
+    <Router>
+      <div style={{ backgroundColor: '#87CEEB', minHeight: '100vh' }}>
+        <Switch>
+          <Route exact path="/" component={Departamentos} />
+          <Route path="/:departamento" component={Detalles} />
+          <Route component={NotFound} />
+        </Switch>
       </div>
-    </div>
+    </Router>
   );
 }
 

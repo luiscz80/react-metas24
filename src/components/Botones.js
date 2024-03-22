@@ -3,7 +3,7 @@ import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 import Swal from 'sweetalert2';
 
-import { departmentData } from '../data.js';
+import { departmentData } from './data/data.js';
 
 function Botones() {
 
@@ -17,7 +17,6 @@ function Botones() {
   };
 
   return (
-    
     <div className="container mb-3">
         <Card>
             <Card.Header>Los 9 departamentos de Bolivia</Card.Header>
@@ -35,7 +34,7 @@ function Botones() {
                 </Button>
                 ))}
             </div>
-            <img src="https://spcc12.netlify.app/imagenes/division.png" width="350" className="bolivia" id="mi_bolivia" alt="Bolivia" />
+            <img src="/images/bolivia.png" width="310" className="bolivia" id="mi_bolivia" alt="Bolivia" />
             </Card.Body>
         </Card>
     </div>

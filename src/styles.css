@@ -1,0 +1,37 @@
+.dep_uno {
+    text-decoration: none;
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .image-container img.pais{
+    width: 340px;
+    height: 360px;
+  }
+  
+  .image-container b {
+    display: block;
+    text-align: center;
+  }
+  
+  .image-container:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid#797979;
+  }
+  .text-dep{
+    color: #797979;
+  }
+  

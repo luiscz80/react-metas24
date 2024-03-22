@@ -1,0 +1,13 @@
+{
+    "Bolivia": {
+      "Beni": ["Cercado", "Moxos", "Vaca Díez", "Yacuma", "Iténez", "Mamoré", "Marbán", "José Ballivián"],
+      "Chuquisaca": ["Belisario Boeto", "Hernando Siles", "Jaime Zudáñez", "Luis Calvo", "Nor Cinti", "Oropeza", "Tomina", "Yamparáez"],
+      "Cochabamba": ["Arani", "Arque", "Ayopaya", "Campero", "Capinota", "Carrasco", "Chapare", "Esteban Arce", "Germán Jordán", "Mizque", "Punata", "Quillacollo", "Tapacarí", "Tiraque"],
+      "La Paz": ["Abel Iturralde", "Aroma", "Bautista Saavedra", "Camacho", "Caranavi", "Eliodoro Camacho", "Franz Tamayo", "Gualberto Villarroel", "Ingavi", "Inquisivi", "José Manuel Pando", "Larecaja", "Loayza", "Los Andes", "Manco Kapac", "Muñecas", "Nor Yungas", "Omasuyos", "Pacajes", "Sud Yungas"],
+      "Oruro": ["Atahuallpa", "Carangas", "Cercado", "Eduardo Abaroa", "Ladislao Cabrera", "Litoral", "Nor Carangas", "Pantaleón Dalence", "Poopó", "Sajama", "Saucarí", "Sud Carangas", "Tomás Barrón"],
+      "Pando": ["Abuná", "Federico Román", "Madre de Dios", "Manuripi", "Nicolás Suárez"],
+      "Potosi": ["Antonio Quijarro", "Chayanta", "Charcas", "Cornelio Saavedra", "Daniel Campos", "Enrique Baldivieso", "José María Linares", "Modesto Omiste", "Nor Chichas", "Nor Lípez", "Sud Chichas", "Sud Lípez", "Tomas Frías"],
+      "Santa Cruz": ["Andrés Ibáñez", "Ángel Sandoval", "Chiquitos", "Cordillera", "Florida", "Germán Busch", "Guarayos", "Ichilo", "Ignacio Warnes", "José Miguel de Velasco", "Ñuflo de Chávez", "Obispo Santistevan", "Sara", "Vallegrande"],
+      "Tarija": ["Aniceto Arce", "Burnet O'Connor", "Cercado", "Eustaquio Méndez", "Gran Chaco", "José María Avilés", "José María de Achá", "Modesto Omiste", "O'Connor"]
+    }
+  }
