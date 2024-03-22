@@ -16,7 +16,16 @@
     width: 340px;
     height: 360px;
   }
-  
+
+  @media only screen and (max-width: 767px) {
+    .image-container img.pais {
+      width: 100%; 
+      height: auto; 
+      max-width: 340px; 
+      max-height: 360px; 
+    }
+  }
+
   .image-container b {
     display: block;
     text-align: center;
